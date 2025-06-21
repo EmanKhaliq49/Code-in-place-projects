@@ -1,4 +1,4 @@
-from karel.stanfordkarel import *
+from karel.stanfordkarel import 
 
 """
 Karel should finish the puzzle by picking up the last beeper 
