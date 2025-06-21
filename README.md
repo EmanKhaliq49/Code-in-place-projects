@@ -1,5 +1,4 @@
 
-
 -----
 
 # Code in Place 2025 Journey 🚀
@@ -16,35 +15,33 @@ Being part of this program has been an amazing experience, fostering problem-sol
 
 ## Repository Contents
 
-This repository is organized to reflect my progress throughout the course:
+This repository contains all the Python files from my Code in Place 2025 journey:
 
-  * **`assignments/`**: This directory contains my solutions to the weekly assignments. Each subfolder corresponds to a specific assignment, showcasing my understanding of key concepts as they were introduced.
+  * **`Box Row.py`**: An assignment likely involving drawing rows of boxes.
+  * **`Double It.py`**: A program possibly designed to double a value or create a duplicate.
+  * **`Draw Flag.py`**: An assignment focused on using graphics to draw a flag.
+  * **`Fill Karel.py`**: A Karel the Robot program involving filling an area.
+  * **`Final Project.py`**: My culminating final project for the course. (Details below\!)
+  * **`Jigsaw Karel.py`**: A Karel the Robot program, likely related to assembling a "jigsaw" pattern.
+  * **`Khansole Academy.py`**: An implementation of a basic math practice program, similar to Khan Academy.
+  * **`Piles by Karel.py`**: A Karel the Robot program, potentially dealing with manipulating piles of beepers.
+  * **`Quilt.py`**: An assignment involving creating a quilt pattern using graphics.
+  * **`Quizlet.py`**: A program possibly related to creating or using flashcards, similar to Quizlet.
+  * **`Stone Mason Karel.py`**: A classic Karel the Robot problem, focusing on filling gaps in a wall.
 
-      * **Key topics covered in assignments include:**
-          * **Karel the Robot:** Introduction to programming logic, functions, and control flow.
-          * **Basic Python Concepts:** Variables, data types, operators, and input/output.
-          * **Conditional Logic & Loops:** `if/else` statements, `for` loops, and `while` loops.
-          * **Functions & Decomposition:** Writing reusable code and breaking down complex problems.
-          * **Graphics & Animation:** Introduction to GUI programming and basic animation using the `graphics` library.
-          * **Lists & Dictionaries:** Working with data structures.
-          * And more\!
+### My Final Project: Basketball Game 🏀
 
-  * **`final_project/`**: This directory holds my culminating project for the course.
+My final project, **`Final Project.py`**, is a **simple yet engaging Basketball Game** built using **Python** and the `graphics` library. It's an interactive application where users can control a basketball, shoot hoops, and score points.
 
-    ### My Final Project: Basketball Game 🏀
+**Key features include:**
 
-    My final project is a **simple yet engaging Basketball Game** built using **Python** and the `graphics` library. It's an interactive application where users can control a basketball, shoot hoops, and score points.
+  * **Dynamic Ball Control:** The basketball follows the mouse cursor, allowing for intuitive aiming.
+  * **Goal Detection:** Precise collision detection determines if the ball successfully enters the hoop.
+  * **Interactive Feedback:** A "GOALLLLL" message flashes when a point is scored, adding to the game experience.
+  * **Game Reset:** The ball automatically repositions after a score, ready for the next shot.
 
-    **Key features include:**
+Developing this game allowed me to solidify my understanding of **event handling, object manipulation, conditional logic, and animation**. It was incredibly rewarding to translate a game idea into functional code and see interactive elements come to life in a GUI application.
 
-      * **Dynamic Ball Control:** The basketball follows the mouse cursor, allowing for intuitive aiming.
-      * **Goal Detection:** Precise collision detection determines if the ball successfully enters the hoop.
-      * **Interactive Feedback:** A "GOALLLLL" message flashes when a point is scored, adding to the game experience.
-      * **Game Reset:** The ball automatically repositions after a score, ready for the next shot.
-
-    Developing this game allowed me to solidify my understanding of **event handling, object manipulation, conditional logic, and animation**. It was incredibly rewarding to translate a game idea into functional code and see interactive elements come to life in a GUI application.
-
-   
 
 ## Technologies Used
 
@@ -53,28 +50,27 @@ This repository is organized to reflect my progress throughout the course:
 
 ## How to Run the Projects (Locally)
 
-To run any of the Python scripts or the final project locally, you'll need a Python environment set up.
+To run any of these Python scripts locally, you'll need a Python environment set up.
 
 1.  **Clone this repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/EmanKhaliq49/Code-in-place-projects.git
+    cd Code-in-place-projects
     ```
 
-    (Remember to replace `your-username/your-repo-name` with your actual GitHub path.)
+2.  **Ensure `graphics.py` is available:** For the projects that use graphics (like `Draw Flag.py`, `Quilt.py`, and `Final Project.py`), the `graphics.py` file must be present in the same directory as the script you are running, or configured in your Python environment. It's typically provided as part of the course materials.
 
-2.  **Ensure `graphics.py` is available:** The `graphics.py` file should be in the same directory as the Python script you are trying to run, or in your Python's `site-packages` directory. It's usually provided as part of the course materials.
-
-3.  **Run a specific assignment or the final project:**
-    Navigate to the desired directory (e.g., `assignments/assignment_x/` or `final_project/`).
+3.  **Run a specific project:**
+    Open your terminal or command prompt, navigate to the cloned repository's root directory, and then run the desired file:
 
     ```bash
-    cd final_project
-    python your_project_file_name.py # e.g., python basketball_game.py
+    python "Final Project.py"
+    # Or for an assignment:
+    python "Draw Flag.py"
     ```
 
-    For assignments, replace `your_project_file_name.py` with the relevant `.py` file for that assignment.
+    (Note the quotes around filenames with spaces if you're on a command line that requires it.)
 
 ## Acknowledgements
 
