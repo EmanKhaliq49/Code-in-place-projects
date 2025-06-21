@@ -1,4 +1,4 @@
-Here's a well-structured and engaging README file for your GitHub repository, perfect for showcasing your Code in Place 2025 journey.
+
 
 -----
 
@@ -44,7 +44,7 @@ This repository is organized to reflect my progress throughout the course:
 
     Developing this game allowed me to solidify my understanding of **event handling, object manipulation, conditional logic, and animation**. It was incredibly rewarding to translate a game idea into functional code and see interactive elements come to life in a GUI application.
 
-    *(Optional: Add a GIF or screenshot of your game here for visual appeal\!)*
+   
 
 ## Technologies Used
 
